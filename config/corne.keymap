@@ -35,7 +35,7 @@
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Lower";
+            display-name = "Sym";
             bindings = <
 &kp ESCAPE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR      &kp PERCENT      &kp CARET  &kp AMPERSAND    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
 &kp GRAVE   &kp UNDERSCORE   &kp PLUS     &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp BACKSLASH    &kp PIPE   &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp EQUAL             &kp MINUS              &kp TILDE
@@ -51,7 +51,7 @@
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Raise";
+            display-name = "Nav";
             bindings = <
 &trans  &trans  &kp K_MUTE      &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &trans    &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &trans
 &trans  &trans  &kp C_PREVIOUS  &kp K_PLAY_PAUSE   &kp C_NEXT            &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
@@ -61,7 +61,7 @@
         };
 
         num_layer {
-            display-name = "Raise";
+            display-name = "Num";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOT       &trans
@@ -71,7 +71,7 @@
         };
 
         func_layer {
-            display-name = "Raise";
+                display-name = "Func";
             bindings = <
 &trans      &trans        &trans        &trans          &trans            &trans          &trans  &kp F7  &kp F8  &kp F9  &kp F12  &trans
 &trans      &trans        &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans          &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans
